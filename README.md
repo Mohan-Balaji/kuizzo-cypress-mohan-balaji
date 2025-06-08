@@ -26,22 +26,24 @@ File: `cypress/e2e/addInstructor.cy.js`
 
 ## 📂 Project Structure
 
+<pre>
 KUZZIO-CYPRESS-MOHAN-B/
 ├── cypress/
-│ ├── downloads/
-│ ├── e2e/
-│ │ ├── addInstructor.cy.js
-│ │ └── createCourse.cy.js
-│ ├── fixtures/
-│ │ └── example.json
-│ ├── support/
-│ │ ├── commands.js
-│ │ └── e2e.js
+│   ├── downloads/
+│   ├── e2e/
+│   │   ├── addInstructor.cy.js
+│   │   └── createCourse.cy.js
+│   ├── fixtures/
+│   │   └── example.json
+│   ├── support/
+│   │   ├── commands.js
+│   │   └── e2e.js
 ├── .gitignore
 ├── cypress.config.js
 ├── package.json
 ├── package-lock.json
 └── README.md
+</pre>
 
 
 
@@ -52,7 +54,6 @@ KUZZIO-CYPRESS-MOHAN-B/
 ```bash
 npm install
 
-```bash
 npx cypress open
 
 🤝 Collaboration
