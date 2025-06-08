@@ -1,6 +1,6 @@
 # 🚀 Kuizzo Cypress Automation Project
 
-**Applicant:** Mohan B  
+**Applicant:** Mohan Balaji  
 **Role:** Cypress Intern at Kuizzo
 
 ## 🌐 Live URL
