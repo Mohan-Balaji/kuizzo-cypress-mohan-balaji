@@ -1,62 +1,60 @@
-🚀 Kuizzo Cypress Automation Project
-🧪 Applicant: Mohan B
-🛠️ Role: Cypress Intern at Kuizzo
-📁 Project Structure
+# 🚀 Kuizzo Cypress Automation Project
+
+**Applicant:** Mohan B  
+**Role:** Cypress Intern at Kuizzo
+
+## 🌐 Live URL
+Tested against: [https://kuizzo.com](https://kuizzo.com)
+
+---
+
+## 🧪 Test Scenarios Covered
+
+### ✅ 1. Register as Institution & Create Course
+File: `cypress/e2e/createCourse.cy.js`
+- Register a new Institution account
+- Create a Course
+- Add **2 Subjects**
+- Add **3 Topics** under one Subject
+
+### ✅ 2. Add Instructor & Assign Course
+File: `cypress/e2e/addInstructor.cy.js`
+- Add a new Instructor
+- Assign the created Course to the Instructor
+
+---
+
+## 📂 Project Structure
 
 KUZZIO-CYPRESS-MOHAN-B/
 ├── cypress/
-│   ├── downloads/                  # Downloaded files (if any)
-│   ├── e2e/
-│   │   ├── addInstructor.cy.js     # Test: Add teacher & assign course
-│   │   └── createCourse.cy.js      # Test: Register & create course with subjects & topics
-│   ├── fixtures/
-│   │   └── example.json            # Test data storage
-│   ├── support/
-│   │   ├── commands.js             # Custom commands
-│   │   └── e2e.js                  # Global setup
+│ ├── downloads/
+│ ├── e2e/
+│ │ ├── addInstructor.cy.js
+│ │ └── createCourse.cy.js
+│ ├── fixtures/
+│ │ └── example.json
+│ ├── support/
+│ │ ├── commands.js
+│ │ └── e2e.js
 ├── .gitignore
-├── cypress.config.js              # Cypress configuration
-├── package.json                   # Project dependencies & scripts
+├── cypress.config.js
+├── package.json
 ├── package-lock.json
-└── README.md                      # Project documentation
+└── README.md
 
-✅ Test Scenarios Covered
-1. Institution Registration & Course Creation (createCourse.cy.js)
 
-    Navigate to Kuizzo.com
 
-    Sign up as an Institution
+## ⚙️ Setup Instructions
 
-    Create a new course
+### 📦 Install Dependencies
 
-    Add 2 subjects
-
-    Under one subject, add 3 topics
-
-2. Instructor Creation & Course Assignment (addInstructor.cy.js)
-
-    Add a new teacher
-
-    Assign the newly created course to the teacher
-
-🧪 How to Run the Tests
-1. Install Dependencies
-
+```bash
 npm install
 
-2. Open Cypress GUI
-
+```bash
 npx cypress open
 
-3. Run All Tests in Headless Mode
+🤝 Collaboration
 
-npx cypress run
-
-🧱 Design Highlights
-
-    Modular Structure: Separated test cases and support files for scalability.
-
-    Fixtures: Externalized data in example.json.
-
-    Custom Commands: Reusable actions in support/commands.js.
-
+GitHub collaborator added: https://github.com/kuizzo
